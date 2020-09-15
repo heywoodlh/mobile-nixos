@@ -21,13 +21,12 @@ in
     owner = "LineageOS";
     repo = "android_kernel_razer_msm8998";
     rev = "d216cec5945665e51bfa04dbe0f74626ecd8801c";
-    sha256 = "0npmpsv6mid9vd7yqbnzx83ddhqxdmjfh0mpl06gqx4ywqbc8ph0";
+    sha256 = "0jalrqxk84m0kh12cpqis1dx5jw4rc75g3qjz52idlrxzr5yk7lf";
   };
 
 
   patches = [
     ./0001-mobile-nixos-Adds-and-sets-BGRA-as-default.patch
-    ./0001-mobile-nixos-Workaround-selected-processor-does-not-.patch
     ./0003-arch-arm64-Add-config-option-to-fix-bootloader-cmdli.patch
   ];
 
