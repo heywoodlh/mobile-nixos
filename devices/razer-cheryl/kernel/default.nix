@@ -16,7 +16,7 @@ in
   file = "Image.gz-dtb";
   hasDTB = true;
 
-  version = "4.4.153";
+  version = "4.4.233";
   src = fetchFromGitHub {
     owner = "LineageOS";
     repo = "android_kernel_razer_msm8998";
